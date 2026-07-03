@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ГМЦ - Городской медицинский центр</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-gray-100 m-0 p-0">
+    <header class="w-full bg-white border-b border-[#0091d5] px-6 py-4 shadow-sm">
+        <div class="max-w-[1440px] mx-auto">
+            <div class="flex flex-wrap items-center justify-between gap-4 pb-4">
+                <div class="flex items-center min-w-[200px]">
+                    <img src="./imgmaga/logo.svg" alt="">
+                </div>
+
+                <!-- Блок телефона и WhatsApp -->
+                <div class="flex flex-col text-sm">
+                    <a href="tel:84959260603" class="text-[#006699] font-bold text-base hover:underline">8 (459) 926-06-03</a>
+                    <a href="https://wa.me/84959260603" class="flex items-center text-xs text-gray-500 hover:text-green-600 mt-0.5 gap-[3px]">
+                       <img src="./imgmaga/social.png" alt="">
+                        <span>Whatsapp</span>
+                    </a>
+                </div>
+
+                <!-- Блок Email и Заказ звонка -->
+                <div class="flex flex-col text-xs text-gray-500">
+                    <a href="mailto:info@gormedcentre.ru" class="hover:text-gray-800">info@gormedcentre.ru</a>
+                    <button class="text-left text-gray-500 underline hover:text-[#006699] mt-1">Заказать звонок</button>
+                </div>
+
+                <!-- Блок Адреса -->
+                <div class="flex flex-col text-xs text-gray-500 max-w-[180px]">
+                    <span>г. Мытищи,</span>
+                    <span class="mt-0.5">ул. Рождественская, д.7</span>
+                </div>
+
+                <!-- Блок Режима работы -->
+                <div class="flex flex-col text-xs text-gray-500">
+                    <span>Ежедневно</span>
+                    <span class="font-medium text-gray-700 mt-0.5">c 9.00 до 21.00</span>
+                </div>
+
+                <!-- Кнопки управления (Поиск и Личный кабинет) -->
+                <div class="flex items-center gap-2">
+                    <button class="bg-[#00c2cb] hover:bg-[#00abb2] text-white p-3 rounded-lg flex items-center justify-center transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+
+                    <a href="#" class="bg-[#e8f1f7] hover:bg-[#d8e7f3] text-[#004b73] font-medium text-sm px-5 py-3 rounded-lg transition-colors flex items-center justify-center">
+                        Личный кабинет
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- НИЖНЯЯ ЧАСТЬ: Меню навигации -->
+            <div class="bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.08)] rounded-lg px-4 py-2 mt-2 flex flex-wrap items-center justify-between gap-4 border border-gray-100">
+                
+                <nav class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-semibold text-gray-800">
+                    <div class="relative group cursor-pointer flex items-center gap-1 hover:text-[#006699]">
+                        <span>Page 1</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-gray-500 group-hover:text-[#006699]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+
+                    <a href="#" class="hover:text-[#006699]">Page 2</a>
+                    <a href="#" class="hover:text-[#006699]">Page 3</a>
+                    <a href="#" class="hover:text-[#006699]">Oage 4</a>
+                    <a href="#" class="hover:text-[#006699]">Page 5</a>
+
+                    <div class="relative group cursor-pointer flex items-center gap-1 hover:text-[#006699]">
+                        <span>О центре</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-gray-500 group-hover:text-[#006699]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+
+                    <a href="#" class="hover:text-[#006699]">Детство</a>
+                    <a href="#" class="hover:text-[#006699]">Контакты</a>
+                </nav>
+
+                <div class="flex items-center gap-6">
+                    <button class="flex items-center gap-2 text-xs font-medium text-gray-600 hover:text-gray-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12c0-1.83 1.05-3.407 2.577-4.167a6.002 6.002 0 0011.346 0A4.167 4.167 0 0118.75 12a1.5 1.5 0 11-3 0c0-1.522-.84-2.848-2.092-3.562a6.003 6.003 0 00-7.316 0C5.091 9.152 4.25 10.478 4.25 12a1.5 1.5 0 11-3 0z" />
+                            <circle cx="7.5" cy="12" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="16.5" cy="12" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M10 12h4" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                        <span>Версия для слабовидящих</span>
+                    </button>
+
+                    <a href="#" class="bg-[#005587] hover:bg-[#00446a] text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors shadow-sm">
+                        Запись на приём
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+</body>
+</html>
