@@ -966,7 +966,83 @@
   </div>
 </section>
 
+<section class="max-w-7xl mx-auto px-4 py-12 font-sans overflow-hidden">
+  
+  <!-- Заголовок и стрелки -->
+  <div class="flex items-center justify-between mb-8">
+    <h2 class="text-2xl sm:text-3xl font-bold text-gray-950 tracking-tight">Лицензии и сертификаты</h2>
+    
+    <!-- Навигация слайдера -->
+    <div class="flex items-center gap-2 shrink-0">
+      <button class="w-10 h-10 rounded-full bg-blue-50 text-sky-800 flex items-center justify-center hover:bg-blue-100 transition shadow-sm">
+        <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+      <button class="w-10 h-10 rounded-full bg-sky-800 text-white flex items-center justify-center hover:bg-sky-900 transition shadow-sm">
+        <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  </div>
 
+  <!-- Скролл-контейнер: лента на мобилках, 4 колонки на десктопе (lg) -->
+  <div class="flex flex-nowrap overflow-x-auto lg:grid lg:grid-cols-4 gap-6 pb-6 snap-x snap-mandatory">
+    
+    <!-- Документ 1 -->
+    <div class="shrink-0 w-[240px] sm:w-[280px] lg:w-full snap-start space-y-3">
+      <div class="aspect-[4/5] w-full border border-gray-200 rounded-xl p-4 bg-white flex items-center justify-center shadow-sm cursor-pointer hover:shadow-md transition">
+        <img src="./sm1img/image (63).png" alt="Сертификат ГОСТ" class="w-full h-full object-contain">
+      </div>
+      <p class="text-xs sm:text-sm text-gray-500 leading-snug">
+        Сертификат ГОСТ Р ИСО 9001-2015
+      </p>
+    </div>
+
+    <!-- Документ 2 (С лупой при наведении/активной) -->
+    <div class="shrink-0 w-[240px] sm:w-[280px] lg:w-full snap-start space-y-3">
+      <div class="aspect-[4/5] w-full border border-gray-200 rounded-xl p-4 bg-white flex items-center justify-center shadow-sm cursor-pointer hover:shadow-md transition relative group">
+        <img src="./sm1img/image (62).png" alt="Лицензия" class="w-full h-full object-contain">
+        <!-- Кнопка увеличения (лупа) -->
+        <div class="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-blue-50 border border-blue-100 flex items-center justify-center text-sky-800 shadow-sm group-hover:scale-100 transition">
+          <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
+            <circle cx="11" cy="11" r="8" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11 8v6M8 11h6" />
+          </svg>
+        </div>
+      </div>
+      <p class="text-xs sm:text-sm text-gray-500 leading-snug">
+        <a href="#" class="text-sky-600 hover:underline block">Лицензия Л041-01162-5000369739</a>
+        <span class="text-gray-400 text-xs">(выписка из реестра)</span>
+      </p>
+    </div>
+
+    <!-- Документ 3 -->
+    <div class="shrink-0 w-[240px] sm:w-[280px] lg:w-full snap-start space-y-3">
+      <div class="aspect-[4/5] w-full border border-gray-200 rounded-xl p-4 bg-white flex items-center justify-center shadow-sm cursor-pointer hover:shadow-md transition">
+        <img src="./sm1img/image (64).png" alt="Лицензия" class="w-full h-full object-contain">
+      </div>
+      <p class="text-xs sm:text-sm text-gray-500 leading-snug">
+        <span class="block text-gray-600">Лицензия Л017-01162-50/00561579</span>
+        <span class="text-gray-400 text-xs">(выписка из реестра)</span>
+      </p>
+    </div>
+
+    <!-- Документ 4 -->
+    <div class="shrink-0 w-[240px] sm:w-[280px] lg:w-full snap-start space-y-3">
+      <div class="aspect-[4/5] w-full border border-gray-200 rounded-xl p-4 bg-white flex items-center justify-center shadow-sm cursor-pointer hover:shadow-md transition">
+<img src="./sm1img/image (65).png" alt="Лицензия" class="w-full h-full object-contain">
+      </div>
+      <p class="text-xs sm:text-sm text-gray-500 leading-snug">
+        <span class="block text-gray-600">Лицензия Л041-01162-50/00338967</span>
+        <span class="text-gray-400 text-xs">(выписка из реестра)</span>
+      </p>
+    </div>
+
+  </div>
+</section>
 
 </body>
 </html>
