@@ -214,5 +214,99 @@
   </section>
 
 </main>
+
+
+<section class="w-full bg-white py-12 px-4 sm:px-6 lg:px-8 font-sans">
+  <div class="max-w-7xl mx-auto">
+    
+    <div class="bg-gradient-to-r from-[#02B0C5] to-[#0c97bd] text-white p-6 md:p-10 lg:p-12 shadow-md">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+       
+        <div class="lg:col-span-8 space-y-6">
+          <h2 class="text-2xl md:text-3xl font-bold tracking-wide">
+            Записаться на приём
+          </h2>
+         
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            
+            <div class="relative">
+              <select class="w-full bg-[#e2e8f0] text-gray-700 text-xs sm:text-sm px-4 py-3 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-cyan-300 cursor-pointer">
+                <option value="" disabled selected hidden>Выберете направление</option>
+                <option value="1">Акушерство</option>
+                <option value="2">Хирургия</option>
+                <option value="3">Терапия</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500 text-xs">
+                ▼
+              </div>
+            </div>
+
+          
+            <div>
+              <input 
+                type="text" 
+                placeholder="Ваше имя" 
+                class="w-full bg-[#e2e8f0] text-gray-700 text-xs sm:text-sm px-4 py-3 rounded placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-300"
+              />
+            </div>
+
+            <div class="relative">
+              <select class="w-full bg-[#e2e8f0] text-gray-700 text-xs sm:text-sm px-4 py-3 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-cyan-300 cursor-pointer">
+                <option value="" disabled selected hidden>Выберете врача</option>
+                <option value="1">Иванов И.И.</option>
+                <option value="2">Петров П.П.</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500 text-xs">
+                ▼
+              </div>
+            </div>
+
+           
+            <div>
+              <input 
+                type="tel" 
+                placeholder="Ваш телефон" 
+                class="w-full bg-[#e2e8f0] text-gray-700 text-xs sm:text-sm px-4 py-3 rounded placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-300"
+              />
+            </div>
+
+          </div>
+        </div>
+
+      
+        <div class="lg:col-span-4 flex flex-col justify-between h-full space-y-4 lg:pt-2">
+          
+         
+          <p class="text-xs sm:text-sm text-cyan-50/90 leading-relaxed font-light">
+            Оставьте заявку и мы свяжемся с вами в ближайшее время
+          </p>
+
+         
+          <button type="submit" class="w-full bg-[#10b981] hover:bg-[#0ea5e9] text-white text-xs sm:text-sm font-semibold py-3 px-6 rounded shadow-sm transition-colors tracking-wide">
+            Оставить заявку
+          </button>
+
+         
+          <label class="flex items-start gap-2.5 cursor-pointer group select-none pt-1">
+            <input 
+              type="checkbox" 
+              class="mt-0.5 rounded bg-transparent border border-white text-cyan-600 focus:ring-0 focus:ring-offset-0 w-3.5 h-3.5 cursor-pointer"
+              required
+            />
+            <span class="text-[10px] text-cyan-100/80 leading-tight group-hover:text-white transition-colors">
+              Отправляя заявку, вы соглашаетесь на нашу 
+              <a href="#" class="underline hover:text-white">политику конфиденциальности</a>
+            </span>
+          </label>
+
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+</section>
 </body>
 </html>
