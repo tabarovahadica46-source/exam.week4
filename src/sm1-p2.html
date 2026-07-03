@@ -424,21 +424,17 @@
   </div>
 </section>
 
-<section class="max-w-7xl mx-auto px-4 py-16 font-sans text-gray-900">
+<section class="max-w-7xl mx-auto px-4 py-16 font-sans text-gray-900 overflow-hidden">
   
-  <!-- Заголовок и кнопки управления слайдером -->
   <div class="flex items-center justify-between mb-8">
     <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Популярные услуги</h2>
     
-    <!-- Стрелки слайдера -->
     <div class="flex items-center gap-2">
-      <!-- Назад -->
       <button class="w-10 h-10 rounded-full bg-sky-50 text-sky-600 hover:bg-sky-100 flex items-center justify-center transition-colors">
         <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
         </svg>
       </button>
-      <!-- Вперед -->
       <button class="w-10 h-10 rounded-full bg-sky-600 text-white hover:bg-sky-700 flex items-center justify-center transition-colors shadow-sm">
         <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -447,11 +443,9 @@
     </div>
   </div>
 
-  <!-- Сетка карточек услуг -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+  <div class="flex overflow-x-auto pb-4 gap-6 scrollbar-none snap-x snap-mandatory sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:overflow-x-visible sm:pb-0">
     
-    <!-- Карточка 1: МРТ -->
-    <div class="bg-[#F0F6F9] border border-slate-100 overflow-hidden flex flex-col justify-between min-h-[420px] shadow-sm">
+    <div class="bg-slate-50/60 border border-slate-100 rounded-2xl overflow-hidden flex flex-col justify-between min-h-[420px] shadow-sm shrink-0 w-[280px] snap-start sm:w-auto">
       <div class="w-full aspect-[4/3] overflow-hidden">
         <img src="./sm1img/image (43).png" alt="Магнитно-резонансная томография" class="w-full h-full object-cover">
       </div>
@@ -459,14 +453,13 @@
         <h3 class="text-base font-semibold text-slate-800 leading-snug mb-6">
           Магнитно-резонансная томография (МРТ)
         </h3>
-        <button class="w-full bg-sky-800 hover:bg-sky-900 text-white text-center py-2.5 rounded-xl text-sm font-semibold transition-colors">
+        <button class="w-full bg-sky-800 hover:bg-sky-900 text-white text-center py-2.5 rounded-xl text-sm font-semibold transition-colors mt-auto">
           Записаться
         </button>
       </div>
     </div>
 
-    <!-- Карточка 2: Гастроскопия -->
-    <div class="bg-[#F0F6F9] border border-slate-100 overflow-hidden flex flex-col justify-between min-h-[420px] shadow-sm">
+    <div class="bg-slate-50/60 border border-slate-100 rounded-2xl overflow-hidden flex flex-col justify-between min-h-[420px] shadow-sm shrink-0 w-[280px] snap-start sm:w-auto">
       <div class="w-full aspect-[4/3] overflow-hidden">
         <img src="./sm1img/image (44).png" alt="Гастроскопия" class="w-full h-full object-cover">
       </div>
@@ -474,14 +467,13 @@
         <h3 class="text-base font-semibold text-slate-800 leading-snug mb-6">
           Гастроскопия
         </h3>
-        <button class="w-full bg-sky-800 hover:bg-sky-900 text-white text-center py-2.5 rounded-xl text-sm font-semibold transition-colors">
+        <button class="w-full bg-sky-800 hover:bg-sky-900 text-white text-center py-2.5 rounded-xl text-sm font-semibold transition-colors mt-auto">
           Записаться
         </button>
       </div>
     </div>
 
-    <!-- Карточка 3: Прием гинеколога -->
-    <div class="bg-[#F0F6F9] border border-slate-100 overflow-hidden flex flex-col justify-between min-h-[420px] shadow-sm">
+    <div class="bg-slate-50/60 border border-slate-100 rounded-2xl overflow-hidden flex flex-col justify-between min-h-[420px] shadow-sm shrink-0 w-[280px] snap-start sm:w-auto">
       <div class="w-full aspect-[4/3] overflow-hidden">
         <img src="./sm1img/image (45).png" alt="Прием гинеколога" class="w-full h-full object-cover">
       </div>
@@ -489,14 +481,13 @@
         <h3 class="text-base font-semibold text-slate-800 leading-snug mb-6">
           Прием гинеколога
         </h3>
-        <button class="w-full bg-sky-800 hover:bg-sky-900 text-white text-center py-2.5 rounded-xl text-sm font-semibold transition-colors">
+        <button class="w-full bg-sky-800 hover:bg-sky-900 text-white text-center py-2.5 rounded-xl text-sm font-semibold transition-colors mt-auto">
           Записаться
         </button>
       </div>
     </div>
 
-    <!-- Карточка 4: Лабораторная диагностика -->
-    <div class="bg-[#F0F6F9] border border-slate-100 overflow-hidden flex flex-col justify-between min-h-[420px] shadow-sm">
+    <div class="bg-slate-50/60 border border-slate-100 rounded-2xl overflow-hidden flex flex-col justify-between min-h-[420px] shadow-sm shrink-0 w-[280px] snap-start sm:w-auto">
       <div class="w-full aspect-[4/3] overflow-hidden">
         <img src="./sm1img/image (46).png" alt="Лабораторная диагностика" class="w-full h-full object-cover">
       </div>
@@ -504,14 +495,14 @@
 <h3 class="text-base font-semibold text-slate-800 leading-snug mb-6">
           Лабораторная диагностика
         </h3>
-        <button class="w-full bg-sky-800 hover:bg-sky-900 text-white text-center py-2.5 rounded-xl text-sm font-semibold transition-colors">
+        <button class="w-full bg-sky-800 hover:bg-sky-900 text-white text-center py-2.5 rounded-xl text-sm font-semibold transition-colors mt-auto">
           Записаться
         </button>
       </div>
     </div>
 
   </div>
-</section>  
+</section>
 
 </body>
 </html>
