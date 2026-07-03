@@ -566,16 +566,72 @@
 
 
             <div class="w-full h-[400px] bg-slate-100 rounded-md border border-slate-200 shadow-inner relative overflow-hidden">
-                
+
                
                 <img src="./imagesjur/map (1).png" alt="">
-
-    
 
             </div>
         </div>
 
     </section>
+          <section class="w-full max-w-5xl space-y-12 m-auto mt-[50px]">
+
+        <div class="bg-gradient-to-r from-[#02B0C5]  to-[#0074B8] rounded-xl p-8 md:p-10 text-white shadow-sm">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+                
+          
+                <div class="lg:col-span-2 space-y-2">
+                    <h2 class="text-3xl md:text-4xl font-semibold tracking-wide">Записаться на приём</h2>
+                </div>
+                <div class="flex lg:justify-end">
+                    <p class="text-sm text-white/90 max-w-xs leading-relaxed font-light">
+                        Оставьте заявку и мы свяжемся с вами в ближайшее время
+                    </p>
+                </div>
+            </div>
+            <form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8" onsubmit="event.preventDefault();">
+            
+                <div class="relative bg-white text-slate-800 rounded-md">
+                    <select class="w-full bg-transparent px-4 py-3.5 appearance-none text-xs font-normal focus:outline-none cursor-pointer">
+                        <option>Выберете направление</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-4 flex items-center text-slate-500">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                    </div>
+                </div>
+
+    
+                <div>
+                    <input type="text" placeholder="Ваше имя" class="w-full bg-white text-slate-800 placeholder-slate-400 rounded-md px-4 py-3.5 text-xs font-normal focus:outline-none">
+                </div>
+
+                <button type="submit" class="w-full bg-[#00CBB6] hover:bg-[#00B4A2] text-white text-xs font-medium rounded-md py-3.5 shadow-sm transition-colors text-center">
+                    Оставить заявку
+                </button>
+
+                <div class="relative bg-white text-slate-800 rounded-md">
+                    <select class="w-full bg-transparent px-4 py-3.5 appearance-none text-xs font-normal focus:outline-none cursor-pointer">
+                        <option>Выберете врача</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-4 flex items-center text-slate-500">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="tel" placeholder="Ваш телефон" class="w-full bg-white text-slate-800 placeholder-slate-400 rounded-md px-4 py-3.5 text-xs font-normal focus:outline-none">
+                </div>
+
+                <div class="flex items-start space-x-2 mt-2 md:mt-0">
+                    <input type="checkbox" id="privacy" class="mt-0.5 w-4 h-4 rounded border-gray-300 text-[#00AFA5] focus:ring-0 cursor-pointer bg-white">
+                    <label for="privacy" class="text-[10px] text-white/80 leading-normal font-light">
+                        Отправляя заявку, вы соглашаетесь на нашу <a href="#" class="underline hover:text-white transition-colors">политику конфиденциальности</a>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </section>
+    
         </main>
 </body>
 </html>
