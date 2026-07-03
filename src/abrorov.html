@@ -323,5 +323,74 @@
 
     </div>
 </section>
+<section class="w-full bg-gradient-to-r from-[#00a2bd] to-[#005c9e] rounded-2xl p-6 md:p-10 lg:p-12 max-w-[1440px] mx-auto text-white shadow-md">
+    <div class="max-w-[1200px] mx-auto">
+        
+     
+        <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-4 mb-8 md:mb-10">
+            <h2 class="font-bold text-2xl md:text-3xl lg:text-[38px] tracking-wide">
+                Записаться на приём
+            </h2>
+            <p class="text-white/90 text-sm md:text-base max-w-[320px] md:text-right leading-relaxed">
+                Оставьте заявку и мы свяжемся с вами в ближайшее время
+            </p>
+        </div>
+        <form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-6 items-start">
+            
+     
+            <div class="space-y-4">
+                <div class="relative">
+                    <select class="w-full bg-white text-gray-700 text-sm rounded-lg px-4 py-4 appearance-none pr-10 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#00c2cb]">
+                        <option value="" disabled selected hidden>Выберете направление</option>
+                        <option value="cosmetology">Косметология</option>
+                        <option value="trichology">Трихология</option>
+                    </select>
+      
+                    <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none text-gray-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+                </div>
+
+            
+                <div class="relative">
+                    <select class="w-full bg-white text-gray-700 text-sm rounded-lg px-4 py-4 appearance-none pr-10 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#00c2cb]">
+                        <option value="" disabled selected hidden>Выберете врача</option>
+                        <option value="doctor-1">Иванова И.И.</option>
+                        <option value="doctor-2">Петрова П.П.</option>
+                    </select>
+                    <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none text-gray-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <input type="text" placeholder="Ваше имя" 
+                    class="w-full bg-white text-gray-800 text-sm rounded-lg px-4 py-4 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00c2cb]">
+                <input type="tel" placeholder="Ваш телефон" 
+                    class="w-full bg-white text-gray-800 text-sm rounded-lg px-4 py-4 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00c2cb]">
+            </div>
+            <div class="space-y-4">
+                <button type="submit" 
+                    class="w-full bg-[#00c2cb] hover:bg-[#00abb2] text-white font-medium text-sm md:text-base py-4 rounded-lg transition-colors shadow-md text-center">
+                    Оставить заявку
+                </button>
+                <label class="flex items-start gap-3 cursor-pointer select-none mt-2">
+                    <input type="checkbox" required
+                        class="mt-0.5 rounded text-[#00c2cb] focus:ring-[#00c2cb] border-white/40 bg-transparent w-4 h-4 checked:bg-[#00c2cb]">
+                    <span class="text-[11px] leading-tight text-white/80">
+                        Отправляя заявку, вы соглашаетесь на нашу 
+                        <a href="#" class="underline hover:text-white transition-colors">политику конфиденциальности</a>
+                    </span>
+                </label>
+            </div>
+
+        </form>
+    </div>
+</section>
 </body>
 </html>
