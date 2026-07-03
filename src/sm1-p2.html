@@ -634,5 +634,94 @@
   </div>
 </section>
 
+<section class="max-w-7xl mx-auto px-4 py-12 font-sans overflow-hidden">
+  
+  <!-- Заголовок и стрелки -->
+  <div class="flex items-center justify-between mb-8">
+    <h2 class="text-3xl font-bold text-gray-900 tracking-tight">Отзывы пациентов</h2>
+    
+    <!-- Стрелки управления -->
+    <div class="flex items-center gap-2">
+      <button class="w-10 h-10 rounded-full bg-blue-50 text-sky-800 flex items-center justify-center hover:bg-blue-100 transition shadow-sm">
+        <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+      <button class="w-10 h-10 rounded-full bg-sky-800 text-white flex items-center justify-center hover:bg-sky-900 transition shadow-sm">
+        <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Контейнер со скроллом -->
+  <div class="flex gap-10 md:gap-0 flex-col md:grid md:grid-cols-2 gap-8 pb-6 snap-x snap-mandatory">
+    
+    <!-- Отзыв 1 -->
+    <div class="space-y-4 shrink-0 w-[85%] sm:w-[480px] lg:w-full snap-start flex flex-col justify-between">
+      <div class="space-y-3">
+        <!-- Автор и дата -->
+        <div>
+          <h3 class="font-bold text-gray-900 text-sm">Балушина Татьяна</h3>
+          <p class="text-xs text-gray-400 mt-0.5">18 апреля 2022</p>
+        </div>
+        
+        <!-- Звезды -->
+        <div class="flex gap-0.5 text-orange-500 text-sm">
+          ★ ★ ★ ★ ★
+        </div>
+        
+        <!-- Текст -->
+        <p class="text-xs sm:text-sm text-gray-700 leading-relaxed max-w-prose line-clamp-4">
+          Попала к Татьяне Ивановне спонтанно. Очень довольна приёмом и проведением ультразвуковой диагностики. Спасибо Наталье Ивановне за внимательное отношение к пациентам! При возникновении проблем теперь только к ней!
+        </p>
+      </div>
+
+      <!-- Кнопка и привязка к врачу -->
+      <div class="space-y-3 pt-2">
+        <button class="px-5 py-2 border border-sky-400 text-sky-500 hover:bg-sky-50 transition rounded text-xs font-semibold">
+          Подробнее
+        </button>
+        <div class="text-xs text-gray-500">
+          Врач: <a href="#" class="text-sky-500 hover:underline">Савина Наталья Владимировна</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Отзыв 2 -->
+    <div class="space-y-4 shrink-0 w-[85%] sm:w-[480px] lg:w-full snap-start flex flex-col justify-between">
+      <div class="space-y-3">
+        <!-- Автор и дата -->
+        <div>
+          <h3 class="font-bold text-gray-900 text-sm">Трофимов Иван</h3>
+          <p class="text-xs text-gray-400 mt-0.5">24 ноября 2021</p>
+        </div>
+        
+        <!-- Звезды -->
+        <div class="flex gap-0.5 text-orange-500 text-sm">
+          ★ ★ ★ ★ ★
+        </div>
+        
+        <!-- Текст -->
+        <p class="text-xs sm:text-sm text-gray-700 leading-relaxed max-w-prose line-clamp-4">
+          Огромное спасибо врачу за тщательное обследование. Выявили нехватку витамина Д, проблем с щитовидной, к счастью, не оказалось. Доктор приятная в общении и настоящий профессионал!
+        </p>
+      </div>
+
+      <!-- Кнопка и привязка к врачу -->
+      <div class="space-y-3 pt-2">
+        <button class="px-5 py-2 border border-sky-400 text-sky-500 hover:bg-sky-50 transition rounded text-xs font-semibold">
+          Подробнее
+        </button>
+        <div class="text-xs text-gray-500">
+          Врач: <a href="#" class="text-sky-500 hover:underline">Крятов Андрей Михайлович</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>
