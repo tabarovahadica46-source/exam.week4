@@ -337,6 +337,245 @@
         </div>
 
     </section>
+        <section class="w-full max-w-5xl space-y-12 m-auto mt-[50px]">
+
+        <div class="bg-gradient-to-r from-[#02B0C5]  to-[#0074B8] rounded-xl p-8 md:p-10 text-white shadow-sm">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+                
+          
+                <div class="lg:col-span-2 space-y-2">
+                    <h2 class="text-3xl md:text-4xl font-semibold tracking-wide">Записаться на приём</h2>
+                </div>
+                <div class="flex lg:justify-end">
+                    <p class="text-sm text-white/90 max-w-xs leading-relaxed font-light">
+                        Оставьте заявку и мы свяжемся с вами в ближайшее время
+                    </p>
+                </div>
+            </div>
+            <form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8" onsubmit="event.preventDefault();">
+            
+                <div class="relative bg-white text-slate-800 rounded-md">
+                    <select class="w-full bg-transparent px-4 py-3.5 appearance-none text-xs font-normal focus:outline-none cursor-pointer">
+                        <option>Выберете направление</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-4 flex items-center text-slate-500">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                    </div>
+                </div>
+
+    
+                <div>
+                    <input type="text" placeholder="Ваше имя" class="w-full bg-white text-slate-800 placeholder-slate-400 rounded-md px-4 py-3.5 text-xs font-normal focus:outline-none">
+                </div>
+
+                <button type="submit" class="w-full bg-[#00CBB6] hover:bg-[#00B4A2] text-white text-xs font-medium rounded-md py-3.5 shadow-sm transition-colors text-center">
+                    Оставить заявку
+                </button>
+
+                <div class="relative bg-white text-slate-800 rounded-md">
+                    <select class="w-full bg-transparent px-4 py-3.5 appearance-none text-xs font-normal focus:outline-none cursor-pointer">
+                        <option>Выберете врача</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-4 flex items-center text-slate-500">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="tel" placeholder="Ваш телефон" class="w-full bg-white text-slate-800 placeholder-slate-400 rounded-md px-4 py-3.5 text-xs font-normal focus:outline-none">
+                </div>
+
+                <div class="flex items-start space-x-2 mt-2 md:mt-0">
+                    <input type="checkbox" id="privacy" class="mt-0.5 w-4 h-4 rounded border-gray-300 text-[#00AFA5] focus:ring-0 cursor-pointer bg-white">
+                    <label for="privacy" class="text-[10px] text-white/80 leading-normal font-light">
+                        Отправляя заявку, вы соглашаетесь на нашу <a href="#" class="underline hover:text-white transition-colors">политику конфиденциальности</a>
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div class="space-y-6">
+           
+            <div class="flex justify-between items-center">
+                <h3 class="text-3xl font-bold text-slate-900 tracking-wide">Популярные услуги в Косметологии</h3>
+                <div class="flex space-x-2">
+                    <button class="w-9 h-9 flex items-center justify-center rounded-full bg-[#EAF2F8] hover:bg-slate-200 transition-colors">
+                        <svg class="w-5 h-5 text-[#006699]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+                    </button>
+                    <button class="w-9 h-9 flex items-center justify-center rounded-full bg-[#0088CC] hover:bg-[#006699] transition-colors">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+
+           
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                
+        
+                <div class="bg-[#F0F5FA] rounded-md overflow-hidden flex flex-col justify-between p-0">
+                    <div>
+                        <div class="aspect-[4/3] w-full bg-slate-200">
+                            <img src="./imagesjur/image.png" alt="Магнитно-резонансная томография" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-5">
+                            <h4 class="text-sm font-semibold text-slate-900 leading-snug min-h-[40px]">
+                                Магнитно-резонансная томография (МРТ)
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5">
+                        <button class="w-full py-3 bg-[#005B94] hover:bg-[#004673] text-white text-xs font-medium rounded-sm transition-colors">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+
+         
+                <div class="bg-[#F0F5FA] rounded-md overflow-hidden flex flex-col justify-between p-0">
+                    <div>
+                        <div class="aspect-[4/3] w-full bg-slate-200">
+                            <img src="./imagesjur/image (1).png" alt="Гастроскопия" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-5">
+                            <h4 class="text-sm font-semibold text-slate-900 leading-snug min-h-[40px]">
+                                Гастроскопия
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5">
+                        <button class="w-full py-3 bg-[#005B94] hover:bg-[#004673] text-white text-xs font-medium rounded-sm transition-colors">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+
+            
+                <div class="bg-[#F0F5FA] rounded-md overflow-hidden flex flex-col justify-between p-0">
+                    <div>
+                        <div class="aspect-[4/3] w-full bg-slate-200">
+                            <img src="./imagesjur/image (2).png" alt="Прием гинеколога" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-5">
+                            <h4 class="text-sm font-semibold text-slate-900 leading-snug min-h-[40px]">
+                                Прием гинеколога
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5">
+                        <button class="w-full py-3 bg-[#005B94] hover:bg-[#004673] text-white text-xs font-medium rounded-sm transition-colors">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+
+                
+                <div class="bg-[#F0F5FA] rounded-md overflow-hidden flex flex-col justify-between p-0">
+                    <div>
+                        <div class="aspect-[4/3] w-full bg-slate-200">
+                            <img src="./imagesjur/image (3).png" alt="Лабораторная диагностика" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-5">
+                            <h4 class="text-sm font-semibold text-slate-900 leading-snug min-h-[40px]">
+                                Лабораторная диагностика
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5">
+                        <button class="w-full py-3 bg-[#005B94] hover:bg-[#004673] text-white text-xs font-medium rounded-sm transition-colors">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-full max-w-5xl space-y-16 m-auto mt-[50px]">
+
+     
+        <div class="space-y-6">
+          
+            <div class="flex justify-between items-center">
+                <h2 class="text-3xl font-bold text-slate-900 tracking-wide">Лицензии и сертификаты</h2>
+                <div class="flex space-x-2">
+                    <button class="w-9 h-9 flex items-center justify-center rounded-full bg-[#EAF2F8] hover:bg-slate-200 transition-colors">
+                        <svg class="w-5 h-5 text-[#006699]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+                    </button>
+                    <button class="w-9 h-9 flex items-center justify-center rounded-full bg-[#0088CC] hover:bg-[#006699] transition-colors">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                
+               
+                <div class="flex flex-col space-y-3">
+                    <div class="aspect-[3/4] w-full border border-slate-200/80 rounded-sm p-4 bg-white shadow-sm flex items-center justify-center hover:shadow-md transition-shadow cursor-pointer">
+                        <div class="w-full h-full bg-slate-100 flex items-center justify-center relative">
+                          
+                            <div class="absolute inset-0 border-l-8 border-[#005B94] opacity-80"></div>
+                         <img src="./imagesjur/d.png" alt="">
+                        </div>
+                    </div>
+                    <p class="text-xs text-slate-500 leading-normal font-normal">
+                        Сертификат ГОСТ Р ISO 9001-2015
+                    </p>
+                </div>
+
+                <div class="flex flex-col space-y-3">
+                    <div class="group aspect-[3/4] w-full border border-slate-200/80 rounded-sm p-4 bg-white shadow-sm flex items-center justify-center relative hover:shadow-md transition-shadow cursor-pointer">
+                        <img src="./imagesjur/d1.png" alt="">
+                      
+                        <div class="absolute bottom-4 right-4 w-8 h-8 rounded-full bg-[#EAF2F8] shadow-sm flex items-center justify-center text-[#006699] opacity-90 group-hover:scale-105 transition-transform">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/></svg>
+                        </div>
+                    </div>
+                    <p class="text-xs leading-normal font-normal">
+                        <a href="#" class="text-[#006699] hover:underline">Лицензия Л041-01162-5000369739</a> 
+                        <span class="text-slate-400 block lg:inline">(выписка из реестра)</span>
+                    </p>
+                </div>
+
+          
+                <div class="flex flex-col space-y-3">
+                    <div class="aspect-[3/4] w-full border border-slate-200/80 rounded-sm p-4 bg-white shadow-sm flex items-center justify-center hover:shadow-md transition-shadow cursor-pointer">
+                      <img src="./imagesjur/d1.png" alt="">
+                    </div>
+                    <p class="text-xs text-slate-500 leading-normal font-normal">
+                        Лицензия Л017-01162-50/00561579 <span class="text-slate-400 block">(выписка из реестра)</span>
+                    </p>
+                </div>
+
+           
+                <div class="flex flex-col space-y-3">
+                    <div class="aspect-[3/4] w-full border border-slate-200/80 rounded-sm p-4 bg-white shadow-sm flex items-center justify-center hover:shadow-md transition-shadow cursor-pointer">
+                       <img src="./imagesjur/d1.png" alt="">
+                    </div>
+                    <p class="text-xs text-slate-500 leading-normal font-normal">
+                        Лицензия Л041-01162-50/00338967 <span class="text-slate-400 block">(выписка из реестра)</span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+       
+        <div class="space-y-6">
+           
+            <h3 class="text-3xl font-bold text-slate-900 tracking-wide">Как нас найти</h3>
+
+
+            <div class="w-full h-[400px] bg-slate-100 rounded-md border border-slate-200 shadow-inner relative overflow-hidden">
+                
+               
+                <img src="./imagesjur/map (1).png" alt="">
+
+    
+
+            </div>
+        </div>
+
+    </section>
         </main>
 </body>
 </html>
