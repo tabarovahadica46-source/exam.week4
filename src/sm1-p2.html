@@ -551,5 +551,88 @@
   </div>
 </section>
 
+<section class="max-w-7xl mx-auto px-4 py-12 font-sans overflow-hidden">
+  
+  <!-- Заголовок и стрелки -->
+  <div class="flex items-center justify-between mb-8">
+    <h2 class="text-3xl font-bold text-gray-900 tracking-tight">Врачи</h2>
+    
+    <!-- Стрелки навигации -->
+    <div class="flex items-center gap-2">
+      <button class="w-10 h-10 rounded-full bg-blue-50 text-sky-800 flex items-center justify-center hover:bg-blue-100 transition shadow-sm">
+        <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+      <button class="w-10 h-10 rounded-full bg-sky-800 text-white flex items-center justify-center hover:bg-sky-900 transition shadow-sm">
+        <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Контейнер со скроллом: на мобилках скроллится вбок, на десктопе (xl) выстраивается в ровный ряд -->
+  <div class="flex flex-nowrap overflow-x-auto xl:grid xl:grid-cols-4 gap-6 pb-6 snap-x snap-mandatory">
+    
+    <!-- Врач 1 -->
+    <div class="space-y-4 shrink-0 w-[280px] sm:w-[320px] xl:w-full snap-start">
+      <div class="aspect-[4/3] sm:aspect-[4/5] w-full rounded-2xl overflow-hidden bg-gray-100">
+        <img src="./sm1img/photo.png" alt="Крятов Андрей" class="w-full h-full object-cover">
+      </div>
+      <div class="space-y-1">
+        <h3 class="font-bold text-sky-800 text-base leading-tight">Крятов Андрей</h3>
+        <p class="text-xs text-gray-500 font-medium">Главный врач, уролог, андролог</p>
+      </div>
+      <button class="w-full bg-sky-800 hover:bg-sky-900 text-white py-2.5 rounded-lg text-xs font-semibold transition tracking-wide">
+        Записаться
+      </button>
+    </div>
+
+    <!-- Врач 2 -->
+    <div class="space-y-4 shrink-0 w-[280px] sm:w-[320px] xl:w-full snap-start">
+      <div class="aspect-[4/3] sm:aspect-[4/5] w-full rounded-2xl overflow-hidden bg-gray-100">
+        <img src="./sm1img/photo (1).png" alt="Савина Наталья" class="w-full h-full object-cover">
+      </div>
+      <div class="space-y-1">
+        <h3 class="font-bold text-sky-800 text-base leading-tight">Савина Наталья</h3>
+        <p class="text-xs text-gray-500 font-medium">Врач-невролог</p>
+      </div>
+      <button class="w-full bg-sky-800 hover:bg-sky-900 text-white py-2.5 rounded-lg text-xs font-semibold transition tracking-wide">
+        Записаться
+      </button>
+    </div>
+
+    <!-- Врач 3 -->
+    <div class="space-y-4 shrink-0 w-[280px] sm:w-[320px] xl:w-full snap-start">
+      <div class="aspect-[4/3] sm:aspect-[4/5] w-full rounded-2xl overflow-hidden bg-gray-100">
+        <img src="./sm1img/photo (2).png" alt="Зотова Гюзяль" class="w-full h-full object-cover">
+      </div>
+      <div class="space-y-1">
+        <h3 class="font-bold text-sky-800 text-base leading-tight">Зотова Гюзяль</h3>
+        <p class="text-xs text-gray-500 font-medium">Врач-терапевт</p>
+      </div>
+      <button class="w-full bg-sky-800 hover:bg-sky-900 text-white py-2.5 rounded-lg text-xs font-semibold transition tracking-wide">
+        Записаться
+      </button>
+    </div>
+
+    <!-- Врач 4 -->
+    <div class="space-y-4 shrink-0 w-[280px] sm:w-[320px] xl:w-full snap-start">
+      <div class="aspect-[4/3] sm:aspect-[4/5] w-full rounded-2xl overflow-hidden bg-gray-100">
+        <img src="./sm1img/photo (3).png" alt="Николаева Оксана" class="w-full h-full object-cover">
+      </div>
+      <div class="space-y-1">
+        <h3 class="font-bold text-sky-800 text-base leading-tight">Николаева Оксана</h3>
+        <p class="text-xs text-gray-500 font-medium">Врач-терапевт</p>
+      </div>
+      <button class="w-full bg-sky-800 hover:bg-sky-900 text-white py-2.5 rounded-lg text-xs font-semibold transition tracking-wide">
+        Записаться
+      </button>
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>
